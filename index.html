@@ -2,155 +2,126 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Neat Free Images</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="FirstBigProject.css">
-<script src="https://kit.fontawesome.com/e4353a2c7e.js" crossorigin="anonymous"></script>
+    <title>Air Disaster Investigations</title>
+    <script src="https://kit.fontawesome.com/e4353a2c7e.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="2ndbigsite.css">
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#1b9dff" id="nav" ;">
-      <div class="container-fluid" id="lop">
-        <a class="navbar-brand" href="#" style="color:rgb(255, 255, 255); font-size: 26px;"><img src="neat.jpeg" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="#"><i class="fas fa-plane-departure"></i> Air Disasters</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" style="padding-top: 14px" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Investigations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Investigation Report</a></li>
+            <li><a class="dropdown-item" href="#">Investigation Process</a></li>
+            <li><a class="dropdown-item" href="#">All Investigations</a></li>
+          </ul>
+        </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#" style="color:rgb(255, 255, 255); font-size: 26px">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color:rgb(255, 255, 255); font-size: 26px";>Upload</a>
+              <a class="nav-link active" href="#" style="padding-top: 14px">Research</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(255, 255, 255); font-size: 26px">
-                Explore
+              <a class="nav-link dropdown-toggle active" style="padding-top: 14px" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
               </a>
-
-
-
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">NTSB</a></li>
+                <li><a class="dropdown-item" href="#">Follow Me</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Spotify</a></li>
               </ul>
             </li>
 
+            <li class="nav-item" id="ri" >
+              <a class="nav-link active " href="https://www.instagram.com/ayushman__077/" style="padding-bottom: 0px"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+            <li class="nav-item" id="ri">
+              <a class="nav-link active " href="https://www.linkedin.com/in/ayushmantripathi7724" style="padding-bottom: 0px padding-top: 5px"><i class="fab fa-linkedin fa-2x"></i></a>
+            </li>
+            <!-- <li class="nav-item" id="ri">
+              <a class="nav-link active " href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+            </li> -->
           </ul>
           <form class="d-flex">
-            <input id="id" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="color:rgb(0, 0, 0); font-size: 18px">
-            <button id="but" class="btn btn-outline-success" type="submit" style=" background-color:rgb(29, 28, 29);color:rgb(255, 255, 255); font-size: 26px"><i class="fas fa-search"></i></button>
-              <button id="but" class="btn btn-outline-success" type="submit" style="color:rgb(255, 255, 255); font-size: 26px">Register</button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
           </form>
         </div>
       </div>
-
     </nav>
-    <div  id="BG">
-<h1 class="text-center" id="h">
-The best free stock photos, royalty free images & videos shared by creators </h1>
-<div id="photo">
-  <form class="d-flex">
-<input class="form-control form-control-lg" type="search" placeholder="Search for free photos and videos" aria-label=".form-control-lg example">
-<button  class="btn btn-outline-success" type="submit" style=" background-color:rgb(29, 28, 29);color:rgb(255, 255, 255); font-size: 26px"><i class="fas fa-search"></i></button>
+    <div  id="bg" class="container-xl">
+<h1><i class="fas fa-plane-departure"></i>  Air Disaster Investigations  <i class="fas fa-plane-arrival"></i></h1><br>
+<h3 id="me">(By Ayushman)</h3>
+<h4 class="c">Reports provide details about the accident &</h4>
+<h4 class="c"> The probable cause of the accident, and the related safety recommendations.</h4>
+    </div>
+    <div id="co" class="container-xl">
+<h1 style="text-align:center">Transair Flight 810 Crash </h1><br>
+<span class="badge bg-warning text-dark">Investigation Details</span>
+<h3>What Happened-</h3>
+<p class="lead" style="font-size: 25px">​​​​​​​<strong>On July 2, 2021, at about 0145 local, Rhoades Aviation Inc, dba TransAir, flight 810, a B737-200, N810TA, reported engine anomalies in both engines and subsequently ditched into Mamala Bay shortly after takeoff from Daniel K. Inouye International Airport (HNL), Honolulu, Hawaii. The two flight crew members were rescued, and the airplane was substantially damaged. The flight was operating under 14 Code of Federal Regulations Part 121 as a cargo flight from HNL to Kahului International Airport (OGG), Kahului, Hawaii.
 
-  </form>
-  <h6><strong>Suggested : </strong><a href="#">Christmas</a>,  <a href="#">Pumpkin</a>, <a href="#">Snow</a>, <a href="#">Winter</a>, <a href="#">Taylor Swift</a></h6>
-
+Announcements about media briefings and other activities related to this investigation will be made on the NTSB’s media relations Twitter feed @NTSB_Newsroom.<strong></p>
+<br>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ntsb1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="51614237040_fdece25cdb_c.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="51617124684_4c106a3a53_c.jpg" class="d-block w-100" alt="...">
+    </div>
   </div>
-
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
-<div class="container-fluid">
-
-  <div class="jumbotron">
-    <h1 class="text-center">Nature</h1>
-    <p class="text-center">These are the most beautiful images of nature . This search result page is the central page for nature photography and free nature pictures. Feel free to use all of these nature images.</p>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
     </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1434394354979-a235cd36269d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-thumbnail grayscale">
-        <figcaption></figcaption>
-      </figure>
-    </div>
-  </div>
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/e4353a2c7e.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
+  <div class="container-xl" id="co" style="height: 1200px">
+<h1>Runway Overrun, PenAir flight 3296</h1>
+<h3>What Happened-</h3>
+<p class="lead" style="font-size: 25px">​​​​​​​<strong> On October 17, 2019, a Saab 2000 airplane, operated by Peninsula Aviation Services Inc. d.b.a. PenAir flight 3296, overran the end of runway 13 at Unalaska Airport (DUT), Unalaska, Alaska. The flight crew executed a go-around during the first approach to runway 13; the airplane then entered the traffic pattern for a second landing attempt on the same runway. Shortly before landing, the flight crew learned that the wind at midfield was from 300° at 24 knots, indicating that a significant tailwind would be present during the landing. Because an airplane requires more runway length to decelerate and stop when a tailwind is present during landing, a landing in the opposite direction (on runway 31) would have favored the wind at the time. However, the flight crew continued with the plan to land on runway 13.
+
+Our postaccident calculations showed that, when the airplane touched down on the runway, the tailwind was 15 knots. The captain reported after the accident that the initial braking action after touchdown was normal but that, as the airplane traveled down the runway, the airplane had “zero braking” despite the application of maximum brakes. The airplane subsequently overran the end of the runway and the adjacent 300-ft runway safety area (RSA), which was designed to reduce airplane damage during an overrun, and came to rest beyond the airport property. The airplane was substantially damaged during the runway overrun; as a result, of the 3 crewmembers and 39 passengers aboard, 1 passenger sustained fatal injuries, and 1 passenger ​sustained serious injuries. Eight passengers sustained minor injuries, most of which occurred during the evacuation, and the remaining 32 occupants were not injured.​​​​​​​</strong></p>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ntsb2.jpg" class="d-block w-100" alt="...">
+    </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
 </html>
